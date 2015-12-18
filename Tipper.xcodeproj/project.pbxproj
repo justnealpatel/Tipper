@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		17BD0DD71C242DE70027E59D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD0DD61C242DE70027E59D /* AppDelegate.swift */; };
-		17BD0DD91C242DE70027E59D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD0DD81C242DE70027E59D /* ViewController.swift */; };
 		17BD0DDC1C242DE70027E59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BD0DDA1C242DE70027E59D /* Main.storyboard */; };
 		17BD0DDE1C242DE70027E59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BD0DDD1C242DE70027E59D /* Assets.xcassets */; };
 		17BD0DE11C242DE70027E59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BD0DDF1C242DE70027E59D /* LaunchScreen.storyboard */; };
+		17BD0DE91C242EF60027E59D /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD0DE81C242EF60027E59D /* TipViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17BD0DD31C242DE70027E59D /* Tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BD0DD61C242DE70027E59D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17BD0DD81C242DE70027E59D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17BD0DDB1C242DE70027E59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17BD0DDD1C242DE70027E59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17BD0DE01C242DE70027E59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17BD0DE21C242DE70027E59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BD0DE81C242EF60027E59D /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				17BD0DD61C242DE70027E59D /* AppDelegate.swift */,
-				17BD0DD81C242DE70027E59D /* ViewController.swift */,
+				17BD0DE81C242EF60027E59D /* TipViewController.swift */,
 				17BD0DDA1C242DE70027E59D /* Main.storyboard */,
 				17BD0DDD1C242DE70027E59D /* Assets.xcassets */,
 				17BD0DDF1C242DE70027E59D /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17BD0DD91C242DE70027E59D /* ViewController.swift in Sources */,
+				17BD0DE91C242EF60027E59D /* TipViewController.swift in Sources */,
 				17BD0DD71C242DE70027E59D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
