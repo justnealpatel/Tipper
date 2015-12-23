@@ -15,6 +15,7 @@ class TipViewController: UIViewController {
     @IBOutlet weak var displayTip: UILabel!
     @IBOutlet weak var displayTotal: UILabel!
     
+    // Represents tip percentage
     var tip : Float = 0.0
     
     // Returns the local currency symbol in form of a string
