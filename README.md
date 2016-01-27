@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] List anything else that you can get done to improve the app functionality!
-- [x] Show appropriate errors through a nice UI
+- [x] Show appropriate errors through a nice UI (UIAlertViewController)
 
 ## Video Walkthrough 
 
